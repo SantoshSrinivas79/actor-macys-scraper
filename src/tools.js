@@ -5,6 +5,7 @@ const { log } = Apify.utils;
 log.setLevel(log.LEVELS.DEBUG);
 
 const getSearchUrl = (keyword) => {
+    console.log(EnumBaseUrl);
     return `${EnumBaseUrl.SEARCH}/${keyword}`;
 };
 

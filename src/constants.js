@@ -4,7 +4,7 @@ const EnumURLTypes = {
     START_URL: 'startUrl',
 };
 
-const BaseUrls = {
+const EnumBaseUrl = {
     HOME: 'https://www.macys.com',
     SEARCH: 'https://www.macys.com/shop/featured',
     IMAGE: 'https://slimages.macysassets.com/is/image/MCY/products',
@@ -12,5 +12,5 @@ const BaseUrls = {
 
 module.exports = {
     EnumURLTypes,
-    BaseUrls,
+    EnumBaseUrl,
 };
